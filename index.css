@@ -41,7 +41,7 @@ html, body {
 }
 
 #search-container::before {
-    content: "internet:~ will$";
+    content: "internet:~$";
 }
 
 .searchbox {
