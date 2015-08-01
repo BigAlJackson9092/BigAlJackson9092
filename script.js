@@ -32,13 +32,13 @@ function searchKeyPress(e) {
 // parse the user's command
 function parseCom(com) {
 	// misc commands
-	if (new RegExp("^inbox$").test(com)) {
+	if (new RegExp("^in$").test(com)) {
 		nav("http://inbox.google.com");
 	}
-	else if (new RegExp("^drive$").test(com)) {
+	else if (new RegExp("^dr$").test(com)) {
 		nav("http://drive.google.com");
 	}
-	else if (new RegExp("^speedtest$").test(com) || new RegExp("^spd$").test(com)) {
+	else if (new RegExp("^sp$").test(com) || new RegExp("^spd$").test(com)) {
 		nav("http://www.speedtest.net");
 	}
 	else if (new RegExp("^ps$").test(com)) {
