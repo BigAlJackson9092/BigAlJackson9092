@@ -7,29 +7,39 @@
         
     </head>
     <body>
-        <div id="search container" class="searchdiv">
-            
-            <span id="search-container">
-                <input id="search box" type="text" class="searchbox" placeholder="" onkeypress="searchKeyPress(event)" autofocus></input>
+        <div id="search-container" class="searchdiv">
+            <span>
+                <input id="search_box" type="text" class="searchbox" placeholder="" onfocus="chgR()" onblur="chgW()"  onkeypress="searchKeyPress(event)" autofocus></input>
             </span>
-			<table><tr>
-			<tr>
-                    <td><a onmouseover="aTitle(this)" href="http://inbox.google.com">Inbox $in</a></td>
-                </tr>
-                <tr>
-                    <td><a onmouseover="aTitle(this)" href="http://drive.google.com">Drive $dr</a></td>
-                </tr>
-                <tr>
-            
-                    <td><a onmouseover="aTitle(this)" href="http://www.speedtest.net">Speedtest $sp</a></td>
-                </tr>
-                <tr>
-                    <td><a onmouseover="aTitle(this)" href="http://tollandschools.powerschool.com/public">Powerschool $ps</a></td>
-                </tr>
-            </table>
-        </div>
-        </div>
-
+			<hr id="hr1">
+		  <table><tr>
+			<td><u>Links!</u>
+                <p><a href="http://ddg.gg">Duck Duck Go</a></p>
+                <p><a href="http://bing.com">Bing</a></p>
+                <p><a href="http://inbox.google.com">Inbox</a></p>
+                <p><a href="http://drive.google.com">Drive</a></p>
+                <p><a href="http://www.speedtest.net">Speedtest</a></p>
+                <p><a href="http://tollandschools.powerschool.com/public">Powerschool</a></p>
+			</td>
+			<td><b style="color: black; opacity: 0.0">.</b>
+			<p>==
+			<p>==
+			<p>==
+			<p>==
+            <p>==
+            <p>==
+			</td>
+			<td><u>Shortcuts!</u>
+			<p>$ddg
+            <p>$bing
+            <p>$in
+			<p>$dr
+			<p>$sp
+			<p>$ps
+			</td>
+		</tr></table>
+		<hr id="hr2">
+		</div>
         
         <script src="script.js" type="text/javascript"></script>
     </body>

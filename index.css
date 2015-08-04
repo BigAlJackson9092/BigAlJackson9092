@@ -21,23 +21,42 @@ html, body {
     /* center */
     display: block;
     margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 825px;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 80%;
+    width: 80%;
+    box-shadow: 0px 0px 10px 2px white;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+	padding-right:20;
+    border-radius: 3px;
+	font-family: "Source Code Pro", monospace;
+    color: #00FF00;
+    font-weight: 400;
+    font-size: 100%;
+    min-width: 750%;
+    width: 75%;
+}
+.searchdiv:hover{
+box-shadow: 0px 0px 10px 2px red;
+}
+#search-container {
+    display: block;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 80%;
     width: 825px;
     box-shadow: 0px 0px 10px 2px white;
     background-color: rgba(0, 0, 0, .5);
     padding: 20px;
     border-radius: 3px;
-}
-
-#search-container {
-    font-family: "Source Code Pro", monospace;
+	font-family: "Source Code Pro", monospace;
     color: #00FF00;
     font-weight: 400;
     font-size: 100%;
-    min-width: 100%;
-    width: 100%;
+    min-width: 75%;
+    width: 75%;
 }
 
 #search-container::before {
@@ -81,20 +100,25 @@ html, body {
     color: white;
 }
 table {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10px;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
     font-family: "Source Code Pro", monospace;
-    background-color: rgb(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px 2px red;
+    background-color: rgba(0, 0, 0, .25);
 }
 
 th, td {
     padding-right: 10px;
     padding-left: 10px;
 }
-
+tr{
+padding-left:2px;
+padding-top:2px;
+}
 th {
     font-weight: 600;
     color: white;
@@ -109,7 +133,9 @@ td {
 a {
     color: inherit;
     text-decoration: none;
-}
+    margin-left: 2px;
+    
+ }
 
 a:hover {
     text-decoration: underline;
@@ -118,4 +144,48 @@ a:hover {
 a:visited {
     color: inherit;
     text-decoration: none;
+}
+a:focus{
+    outline:0;
+     text-decoration: underline;
+}
+hr{border: 0;
+box-shadow:0 0 4px .5px white;
+width:10px;
+}
+ul{
+margin-left: 1px;
+margin-right: 1px;
+margin-bottom: 1px;
+margin-top: 1px;
+width:auto;
+padding-left: 0px;
+}
+li{
+    float: left;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 0.5em;
+    }
+ul#menu li a {
+padding: 6px 15px;
+}
+
+#navTable{
+    box-shadow: 0px 0px 10px 2px white;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+   
+#navLi{
+    float: left;
+    border-color: red;
+    box-shadow: 0px 0px 5px 2px red;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 8px;
+	font-family: "Source Code Pro", monospace;
+    color: #00FF00;
+
 }
